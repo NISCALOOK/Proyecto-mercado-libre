@@ -1,22 +1,22 @@
 import React from "react";
 import './BarraNav.css';
 import { Link } from "react-router-dom";
-import { Nav} from "react-bootstrap";
 
 function BarraNav() {
-
     return (
         <div>
             <nav>
-                <Nav.Link as={Link} to="/">
-                    Home
-                </Nav.Link>
-                <Nav.Link as={Link} to="/loggin">
-                    Loguearse
-                </Nav.Link>
-                <Nav.Link as={Link} to="/registro">
-                    Registro
-                </Nav.Link>
+                <ul>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/loguearse">Loguearse</Link>
+                    </li>
+                    <li>
+                        <Link to="/registro">Registro</Link>
+                    </li>
+                </ul>
             </nav>
         </div>
     );
