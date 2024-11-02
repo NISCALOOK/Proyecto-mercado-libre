@@ -1,4 +1,5 @@
 import React from "react";
+import './Loguearse.css'
 
 
 function Loguearse() {
