@@ -1,7 +1,7 @@
 
 # Proyecto-mercado-libre
 Proyecto de clon de Mercado Libre desarrollado con React, que replica funcionalidades clave como la búsqueda de productos, filtrado, y gestión de usuarios. Incluye integración de carrito de compras, manejo de estado con React Hooks y diseño responsivo. Ideal para aprender sobre el desarrollo de aplicaciones web dinámicas y de alto rendimiento.
-
+##LIVE http://localhost:3000
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
